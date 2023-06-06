@@ -1,0 +1,86 @@
+.formControl {
+    color: #8b005d;font-weight: 700;font-size: 23px;
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #8b005d;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: rgb(156, 245, 164);
+    margin-bottom: 10px;
+  }
+  
+  .formControl input[type="text"],
+  .formControl input[type="number"] {
+    width: 85%;
+    padding: 8px;
+    margin-bottom: 19px;
+    border: 1px solid #f7bfbf;
+    border-radius: 4px;
+    margin-top: 3px;
+    margin-left: 10px;
+    font-size: 15px;font-weight: 600;
+  }
+  .formControl p{
+    color: #8b005d;text-align: center;font-size: 25px;
+  }
+  .formControl label{
+   margin:10px;padding: 2px;font-weight:700;margin-bottom: 20px;
+  }
+
+  /* .error.invalid{
+    background-color: rgb(241, 162, 179);border: 1px solid red;
+  color: white;
+  text-shadow: 2px solid rgb(212, 35, 35);
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+  display: block;margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;width: 400px;
+  height: 10%;
+  } */
+  
+  /* .error.valid{
+    width: 0;height: 0;
+  } */
+
+  .listBox{
+    width: 48%;height:100%;background-color: whitesmoke;border: 1px solid #8b005d;
+    border-radius: 5px;
+    display: block;margin: auto;padding: 10px;
+  }
+
+  .list{
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+  padding: 5px;
+  font-size: 20px;font-weight: 650;
+  height: 35px;
+  border: 1px solid white;border-radius: 3px;
+  background-color: #8b005d;color: white;font-weight: 760;
+  }
+  
+  .btn {
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid white;
+    color: white;
+    background: #d43939;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.26);
+    cursor: pointer;
+    margin: 10px;
+    margin-left: 75%;
+  }
+  
+  .btn:focus {
+    outline: none;
+  }
+  
+  .btn:hover,
+  .btn:active {
+    background: #ec4f71;
+    border-color: white;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.26);
+  }
